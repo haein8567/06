@@ -1,19 +1,12 @@
 #include <stdio.h>
 
-void print_star()
-{
 
-    int i;
+int main(void) {int argc, char *argv[]) {
 
-    for(i=0; i < 10; i++ )
-    printf("*"); }
-
-    int main(void)
-
-    {
-   print_star();
-   print_star();
-   print_star();
-
+    printf("hello word!\n");
+}
+    int x;
+    printf("main x is at %p\n", &x);
+    
     return 0;
 }
